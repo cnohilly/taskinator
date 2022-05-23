@@ -114,7 +114,6 @@ var createTaskActions = function (taskId) {
 };
 
 var taskButtonHandler = function(event){
-    console.log(event.target);
     if (event.target.matches(".edit-btn")){
         var taskId = event.target.getAttribute("data-task-id");
         editTask(taskId);
